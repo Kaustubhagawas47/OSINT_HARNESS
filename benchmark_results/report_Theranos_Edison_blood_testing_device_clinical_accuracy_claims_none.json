@@ -1,0 +1,17 @@
+{
+    "subject": "Theranos Edison blood testing device clinical accuracy claims",
+    "executive_summary": "Theranos' Edison device failed to deliver accurate blood tests; independent studies and CMS reports confirm high error rates, disproving claims of revolutionary accuracy.",
+    "verdict": "REFUTED",
+    "overall_confidence": 0.95,
+    "key_findings": [
+        "Edison device produced 12.2% out\u2011of\u2011range results versus 8.3% for LabCorp and 7.5% for Quest, with a 2.2% sample rejection rate.",
+        "CMS quality\u2011control tests revealed 87% failure for a hormone and 22% for PSA in 2015, indicating unreliable performance."
+    ],
+    "evidence_synthesis": "Multiple independent sources confirm that the Edison device did not meet its clinical accuracy claims. A CMS report found the device rejected samples 2.2% of the time versus 0% for competitors and produced out\u2011of\u2011range results 12.2% of the time versus 8.3% for LabCorp and 7.5% for Quest. Additionally, CMS quality\u2011control tests in 2015 showed the Edison technology failed 87% of hormone tests and 22% of PSA tests. A startup\u2011failure analysis further states that the technology never worked as advertised. Together, these findings demonstrate consistent evidence of significant inaccuracies, refuting Theranos\u2019 claims.",
+    "conflict_resolution_notes": "All cited sources uniformly refute the accuracy claims; no conflicting evidence was identified.",
+    "citations": [
+        "https://www.planmysaas.com/startup-failures/theranos",
+        "https://www.fiercebiotech.com/medical-devices/cms-report-adds-more-pressure-embattled-theranos-and-its-blood-testing-device",
+        "https://mddionline.com/ivd/theranos-test-results-are-erratic-cms"
+    ]
+}

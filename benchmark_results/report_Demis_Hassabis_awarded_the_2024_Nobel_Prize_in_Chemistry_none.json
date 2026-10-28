@@ -1,0 +1,16 @@
+{
+    "subject": "Demis Hassabis awarded the 2024 Nobel Prize in Chemistry",
+    "executive_summary": "Demis Hassabis was awarded the 2024 Nobel Prize in Chemistry for pioneering AI-driven protein structure prediction, jointly with John Jumper and David Baker. The award recognizes their groundbreaking contributions to computational biology.",
+    "verdict": "VERIFIED",
+    "overall_confidence": 0.99,
+    "key_findings": [
+        "Demis Hassabis received half of the 2024 Chemistry Prize for AI-driven protein structure prediction.",
+        "The award was jointly given to David Baker, Demis Hassabis, and John Jumper."
+    ],
+    "evidence_synthesis": "Three authoritative Nobel Prize sources confirm that Demis Hassabis, alongside John Jumper, received half of the 2024 Chemistry Prize for AI-driven protein structure prediction. The press release and panelist page detail the award\u2019s focus on computational biology, while the PDF press release reiterates Hassabis\u2019s role. All sources are highly reliable (0.96\u20130.98) and consistently support the claim.",
+    "conflict_resolution_notes": "No conflicting evidence found; all sources corroborate the claim.",
+    "citations": [
+        "https://www.nobelprize.org/events/nobelprize-dialogue/brussels2024/panellists/demis-hassabis",
+        "https://www.nobelprize.org/prizes/chemistry/2024/press-release"
+    ]
+}

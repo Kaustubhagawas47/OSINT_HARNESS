@@ -1,0 +1,10 @@
+total_steps,convergence_step,final_verdict,final_confidence,verdict_changes,cumulative_step_reward,episode_reward,total_tokens,total_latency_sec,quality_per_1k_tokens,harmful_memory_retrievals,accuracy,subject,memory_mode
+1,1,REFUTED,0.95,0,0.7682,2.2432,2675,3.35,0.3551,0,1.0,Theranos Edison blood testing devic...,none
+1,1,VERIFIED,0.95,0,0.7164,2.1914,2928,9.57,0.3245,0,1.0,Babson Diagnostics BetterWay blood ...,none
+1,1,VERIFIED,0.99,0,0.8295,2.3245,2677,4.17,0.3698,0,1.0,Demis Hassabis awarded the 2024 Nob...,none
+1,1,REFUTED,0.95,0,0.7745,2.2495,2690,3.01,0.3532,0,1.0,Theranos Edison blood testing devic...,short
+1,1,VERIFIED,0.96,0,0.6511,2.1311,2945,2.95,0.326,0,1.0,Babson Diagnostics BetterWay blood ...,short
+1,1,VERIFIED,0.95,0,0.7276,2.2026,3039,6.95,0.3126,0,1.0,Demis Hassabis awarded the 2024 Nob...,short
+1,1,REFUTED,0.95,0,0.7743,2.2493,2704,2.42,0.3513,0,1.0,Theranos Edison blood testing devic...,long
+1,1,VERIFIED,0.92,0,0.2499,1.7099,3273,2.9,0.2811,3,1.0,Babson Diagnostics BetterWay blood ...,long
+1,1,VERIFIED,0.99,0,0.7541,2.2491,3043,5.15,0.3253,0,1.0,Demis Hassabis awarded the 2024 Nob...,long

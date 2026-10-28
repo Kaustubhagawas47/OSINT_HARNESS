@@ -1,0 +1,20 @@
+{
+    "subject": "Demis Hassabis awarded the 2024 Nobel Prize in Chemistry",
+    "executive_summary": "Demis Hassabis, co\u2011founder of DeepMind, jointly received the 2024 Nobel Prize in Chemistry for AlphaFold 2, a breakthrough AI model for protein structure prediction. The award was shared with John Jumper and David Baker for related computational advances.",
+    "verdict": "VERIFIED",
+    "overall_confidence": 0.99,
+    "key_findings": [
+        "Hassabis and Jumper jointly awarded for protein structure prediction via AlphaFold 2",
+        "Award shared with David Baker for computational protein design"
+    ],
+    "evidence_synthesis": "All six cited sources confirm that Demis Hassabis, alongside John M. Jumper, received the 2024 Nobel Prize in Chemistry for their work on AlphaFold 2, an AI model that predicts protein structures. The prize was shared with David Baker for computational protein design, underscoring the collaborative nature of the award.",
+    "conflict_resolution_notes": "No conflicting evidence was identified; all sources consistently support the claim.",
+    "citations": [
+        "https://isomorphiclabs.com/articles/nobel-prize-lecture-demis-hassabis-nobel-prize-in-chemistry-2024",
+        "https://www.isomorphiclabs.com/articles/nobel-prize-lecture-demis-hassabis-nobel-prize-in-chemistry-2024",
+        "https://www.maginative.com/article/google-deepminds-demis-hassabis-and-john-jumper-awarded-nobel-prize-in-chemistry-for-alphafold",
+        "https://affairscloud.com/david-baker-demis-hassabis-and-john-jumper-won-nobel-prize-in-chemistry-2024",
+        "https://m.economictimes.com/news/science/2024-nobel-prize-in-chemistry-who-are-david-baker-demis-hassabis-and-john-jumper/articleshow/114075868.cms",
+        "https://economictimes.indiatimes.com/news/science/2024-nobel-prize-in-chemistry-who-are-david-baker-demis-hassabis-and-john-jumper/articleshow/114075868.cms"
+    ]
+}

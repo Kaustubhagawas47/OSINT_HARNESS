@@ -1,0 +1,20 @@
+{
+    "subject": "Babson Diagnostics BetterWay blood testing clinical validity",
+    "executive_summary": "Babson Diagnostics\u2019 BetterWay blood testing platform has received FDA 510(k) clearance and clinical equivalence validation, confirming its clinical validity for point-of-care testing.",
+    "verdict": "VERIFIED",
+    "overall_confidence": 0.96,
+    "key_findings": [
+        "FDA 510(k) clearance confirms regulatory approval.",
+        "White paper demonstrates clinical equivalence to venous testing."
+    ],
+    "evidence_synthesis": "Evidence from the FDA 510(k) clearance (https://htworld.co.uk/news/products/babson-diagnostics-betterway-blood-testing-service-receives-fda-clearance) confirms regulatory approval for the BetterWay platform. The BetterWay white paper (https://s3.amazonaws.com/enp-network-assets/production/attachments/183059/original/BetterWay_White_Paper.pdf?2024=) reports that test results are clinically equivalent to conventional venous testing, validated in a CLIA\u2011certified, CAP\u2011accredited laboratory. Other sources (DrugStoreNews, VatorNews, DiagnosticsWorldNews, StartupIntros) discuss retail availability or partnerships but provide no clinical validity data, thus not contradicting the supporting evidence.",
+    "conflict_resolution_notes": "No conflicting evidence identified; all supporting sources corroborate clinical validity, while neutral sources do not dispute it.",
+    "citations": [
+        "https://htworld.co.uk/news/products/babson-diagnostics-betterway-blood-testing-service-receives-fda-clearance",
+        "https://s3.amazonaws.com/enp-network-assets/production/attachments/183059/original/BetterWay_White_Paper.pdf?2024=",
+        "https://drugstorenews.com/babson-diagnostics-unveils-betterway-blood-testing-across-austin",
+        "https://vator.tv/2024-05-06-babson-diagnostics-partners-with-cynergy-to-oversee-its-betterway-blood-test",
+        "https://www.diagnosticsworldnews.com/news/2025/04/03/babson-diagnostics-betterway-blood-test-available-at-national-retailer",
+        "https://startupintros.com/orgs/babson-diagnostics"
+    ]
+}
