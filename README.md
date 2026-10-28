@@ -92,10 +92,41 @@ This runs the investigation against predefined benchmark subjects and claims, lo
 
 ## Architecture
 
-The investigation workflow follows a cyclic state graph:
 
-1. **Plan Node:** Deconstructs the target claim or entity into targeted external search queries.
-2. **Gather & Evaluate Node:** Scrapes source documents, evaluates publisher domain reliability, and extracts structured evidence items.
-3. **Memory Integration:** Manages short-term buffer context and long-term vector associations based on the active ablation mode.
-4. **Reflection Node:** Synthesizes evidence, detects factual contradictions, updates confidence scores, and determines convergence.
-5. **Report Node:** Compiles the verified findings into a structured, analyst-grade final report with citations.
+The following diagram illustrates the cyclic LangGraph state machine, highlighting the interaction between the core operational nodes, the external memory manager, and the conditional routing logic. 
+
+```mermaid
+graph TD
+    %% Styling definitions
+    classDef graphNode fill:#ffffff,stroke:#333,stroke-width:2px;
+    classDef conditionalNode fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
+    classDef externalService fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+
+    %% Graph Inputs/Outputs
+    Start([Start Case])
+    End([End Benchmark Case])
+
+    %% LangGraph Nodes
+    Plan["<b>_plan_node</b><br/>Decompose Subject &<br/>Generate Seed Queries"]:::graphNode
+    Gather["<b>_gather_and_evaluate_node</b><br/>1. Execute Searches (URL Cache)<br/>2. Batched Fact Extraction<br/>3. LLM Reflection & Scoring"]:::graphNode
+    Report["<b>_report_node</b><br/>Compile Final JSON Synthesis"]:::graphNode
+    
+    %% Router
+    Router{"<b>_should_continue</b><br/>Confidence ≥ 0.85?<br/>or Steps = Max?"}:::conditionalNode
+
+    %% External Services
+    Memory[("<b>OSINTMemoryManager</b><br/>Mode: none | short | long")]:::externalService
+    Tavily(("<b>Tavily API</b><br/>Web Search")):::externalService
+
+    %% Core Execution Flow
+    Start -->|"Initial InvestigationState"| Plan
+    Plan -->|"active_queries"| Gather
+    Gather -->|"Updated State"| Router
+    Router -->|"investigate"| Gather
+    Router -->|"report"| Report
+    Report -->|"final_report"| End
+
+    %% External Data Flow
+    Gather -.->|"add_evidence()<br/>retrieve_context()"| Memory
+    Gather -.->|"Search Terms"| Tavily
+```
